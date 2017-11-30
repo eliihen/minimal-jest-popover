@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders an unchanging snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+      <h1
+        className="App-title"
+      >
+        Welcome to React
+      </h1>
+    </header>
+    <Popover
+      action="click"
+      arrow={true}
+      defaultIsOpen={false}
+      modifiers={Object {}}
+      motion={false}
+      placement="auto"
+    >
+      <Manager
+        className="manager"
+        data-target-id="xsyzqqsddr"
+        style={
+          Object {
+            "display": "inline",
+          }
+        }
+        tag="div"
+      >
+        <div
+          className="manager"
+          data-target-id="xsyzqqsddr"
+          style={
+            Object {
+              "display": "inline",
+            }
+          }
+        >
+          <TargetComponent
+            action="click"
+            closePopover={[Function]}
+            id="xsyzqqsddr"
+            openPopover={[Function]}
+            tooglePopover={[Function]}
+          >
+            <Target>
+              <div
+                className="target-container"
+              >
+                <button>
+                  Clicky!
+                </button>
+              </div>
+            </Target>
+          </TargetComponent>
+        </div>
+      </Manager>
+    </Popover>
+  </div>
+</App>
+`;
